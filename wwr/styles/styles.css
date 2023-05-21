@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat&family=Oleo+Script+Swash+Caps&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,25 +7,34 @@
 
 header {
     background-color: #134266;
+    padding: 5px 0;
 }
 
 .logo {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
-    background-color: #134266;
+    background-color: #1a5d91;
     color: #FCE172;
+    padding: 35px;
 }
 
-.home title {
-    color: #FCE172;
+.home-title {
+    color: #134266;
+    font-family: "Fredericka the Great", "Oleo Script Swash Caps", Garamond;
+    font-size: 2em;
 }
 
 #hero-img {
@@ -46,8 +57,13 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #background {
@@ -57,39 +73,74 @@ main section {
 
 body {
     background-color: white;
+    font-family: "Montserrat", Helvetica, Arial;
+    font-size: 32px;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 
-.book, .join {
+.book {
     background-color: white;
     color: #134266;
     text-decoration: none;
+    font-size: .75em;
+    padding: 15px 30px;
+    border-radius: 5px;
 }
 
-.book:hover, .join:hover {
-    background-color: #79C5D7;
-    color: #134266
+.book:hover {
+    background-color: #cecece;
+    color: black;
+}
+
+.join {
+    background-color: #FCE172;
+    color: #134266;
+    text-decoration: none;
+    font-size: .75em;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.join:hover {
+    background-color: #ecc839;
+    color: black;
+}
+
+.card-img {
+    border: 10px solid #fce172;
 }
 
 .msg {
     background-color: #FCE172;
+    font-size: .8em;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: #134266;
+    font-family: "Fredericka the Great", "Oleo Script Swash Caps", Garamond;
 }
 
 .msg p {
     color: #134266;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #134266;
     color: white;
+    padding: 25px 50px;
 }
 
 footer p {
-    font-size: 1.2em;
+    font-size: .6em;
 }
 
 footer p a:hover {
@@ -103,4 +154,8 @@ footer a {
 
 footer a:hover {
     color: #79C5D7;  
+}
+
+.social img {
+    padding-top: 15px;
 }

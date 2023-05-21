@@ -1,16 +1,18 @@
 body {
-    background-color: pink
+    background-color: white;
+    margin: 0;
 }
-nav, footer {
+nav {
     background-color: steelblue;
     color: white;
-    padding: 10px;
+    padding: 25px;
     text-align: center;
 }
 a {
     font-size: 1.5em;
     color: white;
     margin: 40px;
+    padding: 25px;
 }
 a:hover {
     background-color: white;
@@ -19,6 +21,7 @@ a:hover {
 h1 {
     color: steelblue;
     text-align: center;
+    margin: 50px 0;
 }
 img {
     width: 80%;
@@ -27,15 +30,18 @@ img {
     margin: 0 auto;
 }
 footer p {
+    background-color: steelblue;
+    text-align: center;
     font-size: 20px;
     margin: 20px auto;
+    padding: 25px;
     color: white;
 }
 .main-para{
         font-size: 1.5em;
         line-height: 1.5em; 
         width: 80%;
-        margin: 50px auto;
+        margin: 100px auto;
         text-align: center;
 }
 #active {
