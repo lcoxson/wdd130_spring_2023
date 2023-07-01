@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat&family=Oleo+Script+Swash+Caps&display=swap');
 
 #content {
-    max-width: 1600px;
+    max-width: 2000px;
     margin: 0 auto;
 }
 
@@ -188,11 +188,6 @@ h2 {
     padding-bottom: 15px;
 }
 
-
-
-
-
-
 .join {
     background-color: #FCE172;
     color: #134266;
@@ -206,8 +201,6 @@ h2 {
     background-color: #ecc839;
     color: black;
 }
-
-
 
 footer {
     background-color: #134266;
@@ -238,6 +231,191 @@ footer a:hover {
 .social img {
     padding-top: 15px;
 }
+
+
+
+
+
+
+/* FAQ PAGE */
+
+#faq-hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#faq-hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+
+#faq-hero-img {
+    width: 100%;
+    height: 100%;
+}
+
+.faq-title {
+    color: #134266;
+    font-family: "Fredericka the Great", "Oleo Script Swash Caps", Garamond;
+    font-size: 2em;
+    grid-row: 2/3;
+}
+
+#faq-hero-msg {
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+#faq-hero-msg h1 {
+    color: #fce172;
+    font-size: 3em;
+    grid-row: 2/3;
+}
+
+#faq-hero-msg h4 {
+    color: #fce172;
+    margin-top: -90px;
+}
+
+#faq-grid {
+    display: grid;
+    grid-template-columns: 35% 2% 26% 2% 35%;
+    row-gap: 1%;
+    background-color: #79C5D7;
+    height: auto;
+    padding: 2% 5% 10% 2%;
+}
+
+.q1 {
+    border: 10px solid #134266;
+    background-color: #FCE172;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: left;
+    font-size: 1.5em;
+    margin: auto;
+    padding: 10%;
+    z-index: 1;
+}
+.a1 {
+    border: 10px solid #134266;
+    background-color: #cecece;
+    grid-column: 2/6;
+    grid-row: 1/2;
+    font-size: 1em;
+    margin: auto;
+    padding: 2% 2% 2% 4%;
+}
+
+.q2 {
+    border: 10px solid #134266;
+    background-color: #FCE172;
+    grid-column: 4/6;
+    grid-row: 2/3;
+    text-align: left;
+    font-size: 1.5em;
+    margin: auto;
+    padding: 10%;
+    z-index: 1;
+}
+.a2 {
+    border: 10px solid #134266;
+    background-color: #cecece;
+    grid-column: 1/5;
+    grid-row: 2/3;
+    font-size: 1em;
+    margin: auto;
+    padding: 2% 4% 2% 2%;
+}
+
+.q3 {
+    border: 10px solid #134266;
+    background-color: #FCE172;
+    grid-column: 1/3;
+    grid-row: 3/4;
+    text-align: left;
+    font-size: 1.5em;
+    margin: auto;
+    padding: 10%;
+    z-index: 1;
+}
+.a3 {
+    border: 10px solid #134266;
+    background-color: #cecece;
+    grid-column: 2/6;
+    grid-row: 3/4;
+    font-size: 1em;
+    margin: auto;
+    padding: 2% 2% 2% 4%;
+}
+
+.q4 {
+    border: 10px solid #134266;
+    background-color: #FCE172;
+    grid-column: 4/6;
+    grid-row: 4/5;
+    text-align: left;
+    font-size: 1.5em;
+    margin: auto;
+    padding: 10%;
+    z-index: 1;
+}
+.a4 {
+    border: 10px solid #134266;
+    background-color: #cecece;
+    grid-column: 1/5;
+    grid-row: 4/5;
+    font-size: 1em;
+    margin: auto;
+    padding: 2% 4% 2% 2%;
+}
+
+.q5 {
+    border: 10px solid #134266;
+    background-color: #FCE172;
+    grid-column: 1/3;
+    grid-row: 5/6;
+    text-align: left;
+    font-size: 1.5em;
+    margin: auto;
+    padding: 10%;
+    z-index: 1;
+}
+.a5 {
+    border: 10px solid #134266;
+    background-color: #cecece;
+    grid-column: 2/6;
+    grid-row: 5/6;
+    font-size: 1em;
+    margin: auto;
+    padding: 2% 2% 2% 4%;
+}
+
+
+.q6 {
+    border: 10px solid #134266;
+    background-color: #FCE172;
+    grid-column: 4/6;
+    grid-row: 6/7;
+    text-align: left;
+    font-size: 1.5em;
+    margin: auto;
+    padding: 10%;
+    z-index: 1;
+}
+.a6 {
+    border: 10px solid #134266;
+    background-color: #cecece;
+    grid-column: 1/5;
+    grid-row: 6/7;
+    font-size: 1em;
+    margin: auto;
+    padding: 2% 4% 2% 2%;
+}
+
+
+
 
 
 
