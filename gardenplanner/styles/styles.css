@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Homemade+Apple&display=swap');
+
+
+
+body {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(4, 7em) auto;
+    column-gap: 1em;
+    background: #89A246;
+    padding: .2em;
+}
+
+.logo {
+    width: 100%;
+    grid-column: 1/2;
+}
+
+a {
+    width: 100%;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #A81916;
+    font-size: 1.25em;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1em;
+    padding: 1em;
+    background: #647241;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: "Homemade Apple", "Fredericka the Great", Brush-Script-MT;
+    grid-column: 2/3;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 1.75em;
+    font-family: "Homemade Apple", "Fredericka the Great", Brush-Script-MT;
+    color: white;
+    grid-column: 1/4;
+    margin: 1em .5em .25em .5em;
+}
+
+p {
+    font-family: Helvetica, Georgia;
+    color: white;
+    grid-column: 1/4;
+    line-height: 1.5em;
+    margin: 0 .5em 1.5em .5em;
+}
+
+main img {
+    max-width: 80%;
+    border: 1em solid #89A246;
+    margin: auto;
+}
+
+footer {
+    padding: 1em;
+    background: #89A246;
+    text-align: center;
+    color: white;
+}
