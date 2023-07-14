@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Garden Planner Home Page</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
-<body>
+<body class="plants_tips">
     <header>
         <a id="logo_link" href=index.html>
             <img class=logo src="images/garden_fairy.png" alt="Garden Fairy logo">
@@ -13,36 +14,44 @@
         <a href="index.html">Home</a>
         <a class=current_page href="plants_tips.html">Plants & Tips</a>
         <a href="enjoy_harvest.html">Enjoy the Harvest</a>
-        </home>
     </header>
 
-    <main>
-        <img src="images/rsz_peas_carrots_2023.jpg">
-        <section>
-        <h1>Check out my plants!</h1>
-        <h2>Our garden favorites</h2>
-        <p>SWEET PEPPERS - We love sweet peppers, and would eat them every day if we could! This year, I planted thirteen pepper plants.</p>
-        <p>TOMATOES - We are particularly fond of garden tomatoes. They make a wonderful snack right out of the garden, sprinkled with a little salt and pepper.</p>
-        <p>BLACKBERRIES - A sweet perrenial treat! Blackberries are easy to grow, tolerate heat and sparse waterings, and produce sweet, juicy berries.</p>
-        <p>WATERMELON - Our watermelon plant went wild last year! It did very well in zone 7a, and we had several medium-sized, sweet melons to eat and share.</p>
-        <p>GREEN ONIONS - Green onions are an easy, quick-growing alternative to their larger, bulb onion cousins. They are ready to use not long after planting, and can provide excellent onion flavor and a nice garnish to many dishes. They are also easy to plant around other plants, or in containers.</p>
-        <p>RHUBARB - Another rewarding perrenial plant. The leaves and roots are poisonous, so be sure to plant it in a spot that's harder for kids and pets to go. The stalks have many wonderful uses, and it's easy to grow a large amount!</p>
-        <p>CUCUMBERS - A refreshing garden treat! In 2022, I grew lemon cucumbers. They were small, crisp, and a fun bright yellow. They had spines ("trichomes"), but I picked with gloves on, and gave them a quick rub before putting them in my basket. </p>
+    <main id="subpage-1">
+        <img class="banner" src="images/rsz_peas_carrots_2023.jpg" alt="A garden bed with young peas and carrots growing">
+        <section id="p2-content">
+            <div class="block-1">
+                <h1>Check out my plants!</h1>
+                <h2>My garden favorites</h2>
+                <p>SWEET PEPPERS - We love sweet peppers, and would eat them every day if we could! This year, I planted thirteen pepper plants.</p>
+                <p>TOMATOES - We are particularly fond of garden tomatoes. They make a wonderful snack right out of the garden, sprinkled with a little salt and pepper.</p>
+                <p>BLACKBERRIES - A sweet perrenial treat! Blackberries are easy to grow, tolerate heat and sparse waterings, and produce sweet, juicy berries.</p>
+                <p>WATERMELON - Our watermelon plant went wild last year! It did very well in zone 7a, and we had several medium-sized, sweet melons to eat and share.</p>
+                <p>GREEN ONIONS - Green onions are an easy, quick-growing alternative to their larger, bulb onion cousins. They are ready to use not long after planting, and can provide excellent onion flavor and a nice garnish to many dishes. They are also easy to plant around other plants, or in containers.</p>
+                <p>RHUBARB - Another rewarding perrenial plant. The leaves and roots are poisonous, so be sure to plant it in a spot that's harder for kids and pets to go. The stalks have many wonderful uses, and it's easy to grow a large amount!</p>
+                <p>CUCUMBERS - A refreshing garden treat! In 2022, I grew lemon cucumbers. They were small, crisp, and a fun bright yellow. They had spines (also known as trichomes), but I picked with gloves on, and gave them a quick rub before putting them in my basket. </p>
+            </div>      
 
-        <img src="images/rsz_1pea_blossom_2023.jpg" alt="A blossom on a pea plant">
-        <img src="images/rsz_1rhubarb_2022.jpg" alt="Large rhubarb plant">
+        <div class="images-container">
+            <img class="p2-img" src="images/rsz_1pea_blossom_2023.jpg" alt="A blossom on a pea plant">
+            <p>Peas climbing the garden fence</p>
+            <img class="p2-img" src="images/rsz_1rhubarb_2022.jpg" alt="Large rhubarb plant">
+            <p>These rhubarb leaves were almost two feet long!</p>
+        </div>
 
-        <h2>Struggles</h2>
-        <p>Sometimes, things don't go to plan. Here are a few things I have struggled with, and how I plan to move forward:</p>
-        <p>I planted beets early this spring, but they did not do well. I think the issue was that they didn't get enough water soon enough. The sprouts were small and slow-growing, and I ended up pulling them to make room for tomato plants. The sprouts were tasty though, and would be fun to grow as a microgreen!</p>
-        <p>Last year, I planted an artichoke. I didn't do enough research though, and thought it would be a perennial plant. In some places, it absolutely is - but my zone gets just a little too cold in the winter, and we had a long, cold, wet winter! It didn't come back, and I haven't replaced it. I think if I did a little more research on how to grow, feed, harvest, and protect artichokes, I could absolutely have success next time!</p>
-        <p>You might be surprised to find peppers here - they were also in my list of garden favorites! However, last year I made the mistake of planting peppers in the same bed as my tomatoes. The tomato plants took off long before the pepper plants did, and ended up smothering several plants and stunting the others. This year, my tomatoes are in their own bed, and the peppers have lots of space to grow without competition. They've also gotten a healthy dose of fertilizer this year!</p>
-        <p>Pumpkins round out this list. Last year, I planted several pie pumpkin plants with high hopes for an easy, bountiful harvest. However, we got a squash bug infestation that completely wiped out all of our plants by the end of the season. We did end up with a few small pumpkins, but they really only worked as decorations. This year, I have avoided planting anything in the cucurbit family, to hopefully discourage squash bugs from visiting our garden again next year!</p>
-
+        <div class="block-2">
+            <h2>Struggles</h2>
+            <p>Sometimes, things don't go to plan. Here are a few things I have struggled with, and how I plan to move forward:</p>
+            <p>I planted beets early this spring, but they did not do well. I think the issue was that they didn't get enough water soon enough. The sprouts were small and slow-growing, and I ended up pulling them to make room for tomato plants. The sprouts were tasty though, and would be fun to grow as a microgreen!</p>
+            <p>Last year, I planted an artichoke. I didn't do enough research though, and thought it would be a perennial plant. In some places, it absolutely is - but my zone gets just a little too cold in the winter, and we had a long, cold, wet winter! It didn't come back, and I haven't replaced it. I think if I did a little more research on how to grow, feed, harvest, and protect artichokes, I could absolutely have success next time!</p>
+            <p>You might be surprised to find peppers here - they were also in my list of garden favorites! However, last year I made the mistake of planting peppers in the same bed as my tomatoes. The tomato plants took off long before the pepper plants did, and ended up smothering several plants and stunting the others. This year, my tomatoes are in their own bed, and the peppers have lots of space to grow without competition. They've also gotten a healthy dose of fertilizer this year!</p>
+            <p>Pumpkins round out this list. Last year, I planted several pie pumpkin plants with high hopes for an easy, bountiful harvest. However, we got a squash bug infestation that completely wiped out all of our plants by the end of the season. We did end up with a few small pumpkins, but they really only worked as decorations. This year, I have avoided planting anything in the cucurbit family, to hopefully discourage squash bugs from visiting our garden again next year!</p>
+        </div>
         
-        <h1>Trees</h1>
-        <p>I have two fruit trees in my yard - an Italian prune, and a pear. This is the first year they are producing fruit. Pears are one of my son's favorite fruits, and he could eat them all day. I have an issue with the texture of a lot of fruit, but dried plums (aka prunes) are one of my favorite things! I am looking forward to trying some from my own backyard. I am considering a few other fruit trees, but it's hard to decide which ones! Apples are always a favorite. Cherries are wonderful, but have to be protected from the birds. Peaches are sweet and delicious, but are prone to peach borers, which will kill the trees. Nectarines are another of my favorites. There are too many great choices, and not enough space!
-        </p>
+        <div class="block-3">
+            <h2>Trees</h2>
+            <p>I have two fruit trees in my yard - an Italian prune, and a pear. This is the first year they are producing fruit. Pears are one of my son's favorite fruits, and he could eat them all day. I have an issue with the texture of a lot of fruit, but dried plums (aka prunes) are one of my favorite things! I am looking forward to trying some from my own backyard. I am considering a few other fruit trees, but it's hard to decide which ones! Apples are always a favorite. Cherries are wonderful, but have to be protected from the birds. Peaches are sweet and delicious, but are prone to peach borers, which will kill the trees. Nectarines are another of my favorites. There are too many great choices, and not enough space!
+            </p>
+        </div>
         </section>
     </main>
 
