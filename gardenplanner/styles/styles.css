@@ -211,9 +211,9 @@ footer {
 }
 
 .banner {
-    width: 90%;
+    width: 100%;
     position: fixed;
-    top: 0;
+    top: 75px;
     left: 0;
     right: 0;
     bottom: auto;
@@ -268,3 +268,53 @@ section h2 {
 .block-3 {
     grid-column: 1/4;
 }
+
+
+
+/* Page 3 - Enjoy the Harvest*/
+
+#p3-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-top: 400px;
+    margin-right: .5em;
+    margin-left: .5em;
+    padding: 1em;
+    background: #647241;
+    max-width: 1600px;
+}
+
+#p3-text {
+    grid-column: 1/4;
+    background-color: #89A246;
+    margin: 1em;
+}
+
+#p3-img-container {
+    grid-column: 1/4;
+    display: flex;
+    max-width: 1600px;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}
+
+#roasted {
+    margin: auto;
+    max-width: 30%;
+    border: 5px solid #89A246;
+}
+
+#tomatoes {
+    margin: auto .25em;
+    max-width: 40%;
+    border: 5px solid #89A246;
+}
+
+#bucket {
+    margin: auto;
+    max-width: 30%;
+    border: 5px solid #89A246;
+}
+
+
