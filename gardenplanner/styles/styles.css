@@ -13,10 +13,16 @@ header {
     column-gap: 1em;
     background: #89A246;
     padding: .2em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-height: 80px;
+    z-index: 1;
 }
 
 .logo {
     width: 100%;
+    max-width: 100px;
     grid-column: 1/2;
 }
 
@@ -32,14 +38,18 @@ a {
 a:hover {
     color: #A81916;
     font-size: 1.25em;
+    text-
 }
 
 main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 1em;
+    margin-top: 100px;
+    margin-right: .5em;
+    margin-left: .5em;
     padding: 1em;
     background: #647241;
+    column-gap: .15em;
 }
 
 h1 {
@@ -67,11 +77,118 @@ p {
     margin: 0 .5em 1.5em .5em;
 }
 
-main img {
-    max-width: 80%;
-    border: 1em solid #89A246;
+
+
+#images-row {
+    grid-column: 1/4;
+    grid-row: 6/7;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1;
+    background-color: #89A246;
+}
+/*main img {
+    max-width: 90%;
+    border: .5em solid #89A246;
+    margin: auto;
+*/
+
+.text {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+
+
+.meme-container {
+    display: grid;
+    grid-template-areas: 1fr;
     margin: auto;
 }
+.meme-container img {
+    padding: .25em;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 95%;
+}
+.meme-overlay {
+    padding: .25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 0 auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #89A246;
+    width: 95%;
+}
+.meme-container:hover .meme-overlay {
+    opacity: .85;
+}
+
+
+.flowers-container {
+    display: grid;
+    grid-template-areas: 1fr;
+    margin: auto;
+}
+.flowers-container img {
+    padding: .25em;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 95%;
+}
+.flowers-overlay {
+    padding: .25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 0 auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #89A246;
+    width: 95%;
+}
+.flowers-container:hover .flowers-overlay {
+    opacity: .85;
+}
+
+
+.mushroom-container {
+    display: grid;
+    grid-template-areas: 1fr;
+    margin: auto;
+}
+.mushroom-container img {
+    padding: .25em;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 95%;
+}
+.mushroom-overlay {
+    padding: .25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 0 auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #89A246;
+    width: 95%;
+}
+.mushroom-container:hover .mushroom-overlay {
+    opacity: .85;
+}
+
+
+
+
 
 footer {
     padding: 1em;
